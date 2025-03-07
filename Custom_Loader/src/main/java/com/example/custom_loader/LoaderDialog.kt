@@ -2,6 +2,7 @@ package com.example.custom_loader
 
 import android.app.Dialog
 import android.content.Context
+import android.view.Window
 
 open class LoaderDialog(val context: Context) {
     private lateinit var dialog: Dialog
